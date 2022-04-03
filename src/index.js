@@ -630,3 +630,42 @@
 // }
 
 // console.log(arr2)
+
+
+// var arr1 = [1,2,3,4,5]
+// var arr2 = []
+// console.log(arr1);
+// for( let i=0; i< arr1.length; i++){
+//     arr2.push(arr1[i]*2)
+// }
+
+// const reverse1 = arr => [...arr].reverse().join('')
+// console.log(reverse1("vishnu"));
+
+
+
+function mapForEach(arr,fn) {
+    var newArr =[];
+    for(let i =0; i< arr.length; i++){
+        newArr.push(fn(arr[i]))
+        
+    }
+    return newArr;
+}
+var arr1 = [1,2,3,4]
+var arr2 = mapForEach(arr1, function(item){
+    return item*2
+})
+
+console.log(arr2);
+
+var arr3 = [3,6,9,]
+var arr4 = mapForEach(arr3,function(item){
+    return item/3
+})
+console.log(arr4);
+
+
+var checkPastlimit = function(limiter,item){
+    return item > limiter;
+}
