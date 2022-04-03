@@ -642,7 +642,7 @@
 // const reverse1 = arr => [...arr].reverse().join('')
 // console.log(reverse1("vishnu"));
 
-
+//............................FUNCTIONAL PROGRAMING........................
 
 function mapForEach(arr,fn) {
     var newArr =[];
@@ -669,3 +669,6 @@ console.log(arr4);
 var checkPastlimit = function(limiter,item){
     return item > limiter;
 }
+
+var arr5 = mapForEach(arr3, checkPastlimit.bind(this,1) )
+console.log(arr5);
