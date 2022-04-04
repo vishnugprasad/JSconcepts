@@ -596,6 +596,27 @@
 // Roy.__proto__ = person;
 // console.log(Roy.getFullName());
 
-var a = {};
-var b = [];
-var c = function(){};
+// var a = {};
+// var b = [];
+// var c = function(){};
+
+
+
+//..........................FUNCTION CONSTRUCTOR "NEW".......................
+
+
+
+
+// function Person(firstname,lastname){
+//     console.log(this);
+//     this.firstname = firstname;
+//     this.lastname =  lastname;
+//     console.log("this function is invoked");
+   
+// }
+
+// var roy = new Person("roy", "miller");
+// console.log(roy);
+
+// var june = new Person("june","havens");
+// console.log(june);
