@@ -1,10 +1,8 @@
-
-
 // function main() {
-  
+
 //  var sum = 1;
 //  function a () {
-   
+
 //   let sum = 0;
 //   function b(){
 //       console.log(sum)
@@ -17,7 +15,6 @@
 // }
 
 // main();
-
 
 // var a ;
 // if (a === undefined){
@@ -34,29 +31,20 @@
 // person.address.street = "21st baker street";
 // person.city = "London";
 
-
 // person.job =  new Object();
 // person.job.description = "Private Detective";
 // person.job.type = "freelance";
 
-
 // console.log(person)
 
-
-
-// var person = { name:"hi", 
+// var person = { name:"hi",
 //               lastname : " cde" ,
-//               name: "123", 
+//               name: "123",
 //               rollno: {addno :"345",
-//                        bookno: "223"} 
+//                        bookno: "223"}
 //              }
 
-
-
-
 // console.log(person)
-
-
 
 // --------OBJECTS AND OBJECT LITERALS--------
 
@@ -68,11 +56,9 @@
 //   console.log(person.address)
 // }
 
-
-
 // greet({firstName:"Mia", lastName : "Tennison"})
 
-// sherlock.address = { 
+// sherlock.address = {
 //   street: "21st baker street",
 //   city: "london",
 //   country: "UK"
@@ -80,43 +66,30 @@
 
 // greet(sherlock);
 
-
 // var greet = "hola!"
 // var greet = " hello";
 
-
-
-// var english = { greetings: 
+// var english = { greetings:
 //                {basic: "hello"}
 //               }
 // var spanish = {}
 
-
-
 // console.log(english)
 // // console.log(spanish);
 
-
 // ------------------JASON OBJECTLITERAL----------------
 
-
 // var objectLiteral = {
-//   firstNamel: "Mary" , 
+//   firstNamel: "Mary" ,
 //   programmer : true
 // }
 
 // console.log(JSON.stringify(objectLiteral))
 
-
-
 // var jasonValue = JSON.parse('{ "firstNamel": "Mary", "programmer" : true}')
 // console.log(jasonValue)
 
-
-
 // ................................functions............................
-
-
 
 // var a = {greetings : "hello"}
 // console.log(a)
@@ -127,7 +100,6 @@
 //   // console.log("hi")
 // }
 
-
 // console.log(anonymousGreet);
 
 // var anonymousGreet =  ()=> {
@@ -135,8 +107,6 @@
 // }
 
 // // console.log
-
-
 
 // function log(a) {
 //   a();
@@ -152,12 +122,7 @@
 //   console.log("hola")
 // })
 
-
-
 // ...........call by value......................
-
-
-
 
 // var a = 3;
 // var b;
@@ -172,11 +137,7 @@
 // console.log(a)
 // console.log(b)
 
-
 // ..................call by reference................
-
-
-
 
 // var c = {greetings: "hello"}
 //  var d;
@@ -189,11 +150,10 @@
 
 // console.log(d)
 
-
 // function changeGreetings(obj) {
-  
+
 //   obj.greetings = "mutated"
-  
+
 // }
 
 // changeGreetings(d);
@@ -205,19 +165,13 @@
 
 // a();
 
-
 // ...............function object this.........................
-
-
 
 // var b = function(){
 //   console.log(this)
 // }
 
 // b();
-
-
-
 
 // var c = {
 //   name: "object c",
@@ -231,12 +185,10 @@
 //     setname("changed again in C")
 //     console.log(this);
 //   }
-  
+
 // }
 
 // c.log()
-
-
 
 // var c = {
 //   name: "object c",
@@ -252,23 +204,20 @@
 //     setname("changed again in C ! wow")
 //     console.log(self);
 //   }
-  
+
 // }
 
 // c.log()
 
-
 //..........................ARRAYS............................................
 
-
-
-// var arr = [1, 
+// var arr = [1,
 //            false,
 //           {name: "vishnu "},
 //           function(name){
 //             var greeting =" hello"
 //             console.log(greeting + name )
-//           }, 
+//           },
 //            "hello"]
 
 // arr[3](arr[2].name)
@@ -278,12 +227,12 @@
 //...................argument and Spread..............................
 
 // function greet( firstname, lastname, language, ...others){
-  
+
 //   if(arguments.length === 0){
 //     console.log("no element")
 //     console.log("------------")
 //   }
-  
+
 //   firstname = firstname ||"enter first name"
 //   lastname = lastname||"enter name"
 //   language = language||"english"
@@ -293,27 +242,23 @@
 //   console.log(arguments);
 //   console.log(others)
 //   console.log("arg 0: " + arguments[0])
-  
+
 // }
 
 // greet();
 // greet("vishnu");
 // greet("vishnu","g prasad", "en", "21st baker street", "london", 23);
 
-
-
 //.................function overloading............................
-
 
 // function greet(firstname, lastname, language) {
 //   language = language||"english"
-  
+
 //   if(language ==="english"){
 //     console.log("hello " + firstname +" " + lastname)
 //   } else
 //   console.log("hola " + firstname +" " + lastname)
 // }
-
 
 // function greetEnglish(firstname, lastname){
 //   greet(firstname, lastname, "english")
@@ -324,12 +269,8 @@
 
 // }
 
-
 // greetEnglish("david", "warner")
 // greetSpanish("anna","delvi")
-
-
-
 
 // function newPerson() {
 //  return  {
@@ -339,8 +280,7 @@
 
 // console.log(newPerson());
 
-
-// var 
+// var
 //     //firsstname of the person
 
 //     firstname,
@@ -349,31 +289,23 @@
 //     lastname
 
 // var person  = {
-  
+
 //   firstname: "anna",
 //   lastname: "delvi"
 // }
 
 // console.log(person)
 
-
-
-
 // function greet(name) {
 //   console.log("hello " + name)
 // }
-
 
 // var greetFunc =  function(name) {
 //   console.log("hello " + name)
 // }
 
-
 // greet("vishnu")
 // greetFunc("vishnu gp")
-
-
-
 
 // var greeting =  function(name) {
 //   console.log("hello " + name)
@@ -382,16 +314,11 @@
 
 // console.log(greeting)
 
-
-
 //............immediate invocation function..................
-
-
 
 // function person(name){
 //   console.log("hola " + name)
 // }("michel");
-
 
 // 3;
 
@@ -400,50 +327,42 @@
 // {
 //   name: "delvi",
 //     lastname: "jfa"
-   
+
 // }
 
 //............................closure..........................
 
-
 // function greet(say) {
-  
+
 //   var name = "vishnu"
 //   return function(name){
 //     console.log(say + " " + name)
 //   }
 // }
 
-
-
 // greet("hello ") ("Vishnu")
 
 // var wish = greet("hola")
 // wish("Delvi")
 
-
 // function buildFunction() {
-  
+
 //   var arr = [];
-  
+
 //   for(i = 0; i<3; i++){
 //     arr.push(
 //     function(){
 //       console.log(i);
 //     })
 //   }
-  
+
 //   return arr
 // }
-
 
 // var fs = buildFunction();
 // fs[0]();
 // fs[1]();
 // fs[2]();
-
-
-
 
 // function buildFunction(){
 //   var arr =[];
@@ -455,59 +374,50 @@
 //   return arr;
 // }
 
-
 // var fs =  buildFunction();
 // fs[0]();
 // fs[1]();
 // fs[2]();
 
-
 // /........................function factories................................../
 
 // function makeGreetings(language){
-  
+
 //   return function(firstname,lastname){
 //     if(language === "en"){
 //       console.log("hello "+ firstname + " " + lastname)
 //     }
-    
+
 //     if(language === "es") {
 //       console.log("hola "+firstname + " " + lastname)
 //     }
 //   }
-  
+
 // }
 
 // var greetEnglish = makeGreetings("en")("vishnu", "g prasad")
 // var greetSpanish = makeGreetings("es")("Anna ","Delvi" )
 
-
-
 // /.............closures and call backs..................................
 
-
-
 // function hiLater(){
-  
+
 //   var greetings = "hi"
-  
+
 //   console.log("started")
-  
+
 //   setTimeout(function(){
 //     console.log(greetings)
 //   },3000)
 // }
 
-
 // hiLater();
 
-
-
 // function tellMeWhendone(callback){
-  
+
 //   var x = 1000;
 //   var y = 2000;
-  
+
 //   callback()
 // }
 
@@ -516,15 +426,11 @@
 //   // console.log()
 // })
 
-  
 //   tellMeWhendone(function(){
 //   console.log("all is done")
 // })
 
-
-
 //.........bind().....apply().....call().....
-
 
 // var person = {
 //   firstname : "Anna",
@@ -533,12 +439,11 @@
 //     var fullname = this.firstname + " " + this.lastname
 //     return fullname;
 //   }
-  
+
 // }
 
 // var name  = person.getFullName();
 // console.log(name)
-
 
 // var logName = function(lang1, lang2){
 //   console.log("logged:" + this.getFullName())
@@ -547,13 +452,10 @@
 // var logPersonName = logName.bind(person)
 // logPersonName();
 
-
 // logName()
 
 // var logPerson = logName.bind(person)
 // logPerson();
-
-
 
 // var person = {
 //   firstname : "Anna",
@@ -562,16 +464,13 @@
 //     var fullname = this.firstname + " " + this.lastname
 //     return fullname;
 //   }
-  
-  
-// }
 
+// }
 
 // var person2 = {
 //   firstname : "Vishnu",
 //   lastname: " G Prasad"
 //   }
-
 
 // var logName = function(lang1, lang2){
 //   console.log("logged:" + this.getFullName())
@@ -579,18 +478,13 @@
 //   console.log("...........................")
 // }
 
-
 // var logPersonName = logName.bind(person)
 // logPersonName("en", "es")
-
 
 // // logName.call(person,"ep", "ew")
 // logName.apply(person, ["en", "es"]);
 
-
-
 // //.............function borrowing..........
-
 
 //  (function(lang1, lang2){
 //   console.log("logged:" + this.getFullName())
@@ -598,14 +492,9 @@
 //   console.log("...........................")
 // }).apply(person, ["es","en"])
 
-
-
 // console.log(person.getFullName.apply(person2))
 
-
-
 //................function currying...........
-
 
 // function multiply(a,b){
 //   return a*b
@@ -615,11 +504,7 @@
 
 // console.log(multiplyBy(3))
 
-
-
-
 //.........functional programing................
-
 
 // var arr1 = [1,2,3,];
 // console.log(arr1);
@@ -630,7 +515,6 @@
 // }
 
 // console.log(arr2)
-
 
 // var arr1 = [1,2,3,4,5]
 // var arr2 = []
@@ -644,31 +528,74 @@
 
 //............................FUNCTIONAL PROGRAMING........................
 
-function mapForEach(arr,fn) {
-    var newArr =[];
-    for(let i =0; i< arr.length; i++){
-        newArr.push(fn(arr[i]))
-        
-    }
-    return newArr;
-}
-var arr1 = [1,2,3,4]
-var arr2 = mapForEach(arr1, function(item){
-    return item*2
-})
+// function mapForEach(arr,fn) {
+//     var newArr =[];
+//     for(let i =0; i< arr.length; i++){
+//         newArr.push(fn(arr[i]))
 
-console.log(arr2);
+//     }
+//     return newArr;
+// }
 
-var arr3 = [3,6,9,]
-var arr4 = mapForEach(arr3,function(item){
-    return item/3
-})
-console.log(arr4);
+// var arr1 = [1,2,3,4]
+// var arr2 = mapForEach(arr1, function(item){
+//     return item*2
+// })
+
+// console.log(arr2);
+
+// var arr3 = [3,6,9,]
+// var arr4 = mapForEach(arr3,function(item){
+//     return item/3
+// })
+// console.log(arr4);
+
+// var checkPastlimit = function(limiter,item){
+//     return item > limiter;
+// }
+
+// var arr5 = mapForEach(arr1, checkPastlimit.bind(this,1) )
+// console.log(arr5);
+
+// function mapForEach(arr,fn) {
+//     var newArr =[];
+//     for(let i =0; i< arr.length; i++){
+//         newArr.push(fn(arr[i]))
+
+//     }
+//     return newArr;
+// }
+
+// var checkPastlimitSimplified = function(limiter){
+//     return function(limiter, item){
+//         return item > limiter;
+//     }.bind(this,limiter);
+// };
+
+// var arr6 = mapForEach(arr1,checkPastlimitSimplified(1))
+
+//.........................OBJECT ORIENTED JS AND PROTOTYPING.........................
+//.........................UNDERSTANDING THE PROTOTYPE................................
+
+// var person = {
+//   firstname: "default",
+//   lastname: "default",
+//   getFullName: function () {
+//     return this.firstname + " " + this.lastname;
+//   },
+// };
 
 
-var checkPastlimit = function(limiter,item){
-    return item > limiter;
-}
+// var Roy = {
+//     firstname: "Roy",
+//     lastname: "miller"
+// }
 
-var arr5 = mapForEach(arr3, checkPastlimit.bind(this,1) )
-console.log(arr5);
+
+
+// Roy.__proto__ = person;
+// console.log(Roy.getFullName());
+
+var a = {};
+var b = [];
+var c = function(){};
