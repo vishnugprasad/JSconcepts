@@ -670,8 +670,62 @@
 //....................BUILD IN FUNCTION CONSTRUCTORS.........................
 
 
-String.prototype.isLengthGreater= function(limit){
-    return this.length>limit
-}
+// String.prototype.isLengthGreater= function(limit){
+//     return this.length>limit
+// }
 
-console.log("Roy".isLengthGreater(2));
+// console.log("Roy".isLengthGreater(2));
+
+
+// var  arr = ["jack", "jill", "jon"];
+
+// for( var prop in arr) {
+//     console.log(prop + ":" + arr[prop]);
+// }
+
+
+
+
+//....................... PURE PROTOTYPAL INHERITANCE...........................................
+
+
+
+
+
+// var person = {
+//     firstname: "default",
+//     lastname: "default",
+//     greet : function(){
+//         return "Hi " + this.firstname + " " + this.lastname;
+//     }
+// }
+
+// var  pOne = Object.create(person);
+// pOne.firstname = "Roy";
+// pOne.lastname = "Miller"
+// console.log(pOne.greet());
+
+
+
+
+//.........................ODDS AND ENDS( INITILIZATION).........................
+
+
+
+var people = [
+    { 
+    firstname : "Roy",
+    lastname: "miller",
+    address: ["21st baker street", "london"
+]},
+    {firstname: "Junes",
+    lastname: "Havens",
+    address: ["11 main street",
+    "Newyork"],
+greet : function(){
+    console.log("hello");
+}}]
+
+
+
+    console.log(people.greet());
