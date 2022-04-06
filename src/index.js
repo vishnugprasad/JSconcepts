@@ -620,3 +620,58 @@
 
 // var june = new Person("june","havens");
 // console.log(june);
+
+
+
+
+//..........constructore and "prototype"...........................................
+
+
+
+
+// function Person(firstname,lastname){
+//     console.log(this);
+//     this.firstname = firstname;
+//     this.lastname =  lastname;
+//     console.log("this function is invoked");
+   
+// }
+
+
+// Person.prototype.getFullName = function() {
+
+//     return this.firstname + " " + this.lastname
+
+// }
+
+// var roy = new Person("roy", "miller");
+// console.log(roy);
+
+// var june = new Person("june","havens");
+// console.log(june);
+// console.log( june.getFullName())
+
+
+
+
+
+
+//...................NEW AND FUNCTIONS.....................................
+
+
+// var a = new Number(3);
+// var b = new Number(4);
+
+// console.log(Number);
+// console.log(a);
+// console.log(Number);
+
+
+//....................BUILD IN FUNCTION CONSTRUCTORS.........................
+
+
+String.prototype.isLengthGreater= function(limit){
+    return this.length>limit
+}
+
+console.log("Roy".isLengthGreater(2));
