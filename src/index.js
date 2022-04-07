@@ -585,13 +585,10 @@
 //   },
 // };
 
-
 // var Roy = {
 //     firstname: "Roy",
 //     lastname: "miller"
 // }
-
-
 
 // Roy.__proto__ = person;
 // console.log(Roy.getFullName());
@@ -600,19 +597,14 @@
 // var b = [];
 // var c = function(){};
 
-
-
 //..........................FUNCTION CONSTRUCTOR "NEW".......................
-
-
-
 
 // function Person(firstname,lastname){
 //     console.log(this);
 //     this.firstname = firstname;
 //     this.lastname =  lastname;
 //     console.log("this function is invoked");
-   
+
 // }
 
 // var roy = new Person("roy", "miller");
@@ -621,22 +613,15 @@
 // var june = new Person("june","havens");
 // console.log(june);
 
-
-
-
 //..........constructore and "prototype"...........................................
-
-
-
 
 // function Person(firstname,lastname){
 //     console.log(this);
 //     this.firstname = firstname;
 //     this.lastname =  lastname;
 //     console.log("this function is invoked");
-   
-// }
 
+// }
 
 // Person.prototype.getFullName = function() {
 
@@ -651,13 +636,7 @@
 // console.log(june);
 // console.log( june.getFullName())
 
-
-
-
-
-
 //...................NEW AND FUNCTIONS.....................................
-
 
 // var a = new Number(3);
 // var b = new Number(4);
@@ -666,9 +645,7 @@
 // console.log(a);
 // console.log(Number);
 
-
 //....................BUILD IN FUNCTION CONSTRUCTORS.........................
-
 
 // String.prototype.isLengthGreater= function(limit){
 //     return this.length>limit
@@ -676,21 +653,13 @@
 
 // console.log("Roy".isLengthGreater(2));
 
-
 // var  arr = ["jack", "jill", "jon"];
 
 // for( var prop in arr) {
 //     console.log(prop + ":" + arr[prop]);
 // }
 
-
-
-
 //....................... PURE PROTOTYPAL INHERITANCE...........................................
-
-
-
-
 
 // var person = {
 //     firstname: "default",
@@ -705,27 +674,54 @@
 // pOne.lastname = "Miller"
 // console.log(pOne.greet());
 
-
-
-
 //.........................ODDS AND ENDS( INITILIZATION).........................
 
+// var people = [
+//   {
+//     firstname: "Roy",
+//     lastname: "miller",
+//     address: ["21st baker street", "london"],
+//   },
+//   {
+//     firstname: "Junes",
+//     lastname: "Havens",
+//     address: ["11 main street", "Newyork"],
+//     greet: function () {
+//       console.log("hello");
+//     },
+//   },
+// ];
+
+// console.log(people);
 
 
-var people = [
-    { 
-    firstname : "Roy",
-    lastname: "miller",
-    address: ["21st baker street", "london"
-]},
-    {firstname: "Junes",
-    lastname: "Havens",
-    address: ["11 main street",
-    "Newyork"],
-greet : function(){
-    console.log("hello");
-}}]
+//............................typeof, instanceof...............................................
+
+
+// var a = 3;
+// console.log(typeof a);
+
+// var a = "hello";
+// console.log(typeof a);
+
+// var c = {};
+// console.log(typeof c);
+
+// var d = [];
+// console.log(typeof d);
+// console.log(d.toString());
+// console.log(typeof d);
+
+// // var a = df;
+// // console.log(typeof a);
 
 
 
-    console.log(people.greet());
+//............................STRICT MODE.....................................................
+
+
+
+var person;
+
+persom = { };
+console.log(persom);
