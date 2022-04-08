@@ -721,7 +721,39 @@
 
 
 
-var person;
+// var person;
 
-persom = { };
-console.log(persom);
+// persom = { };
+// console.log(persom);
+
+
+
+//....................ES6.................................
+
+
+
+let a = "hello";
+console.log(a);
+ 
+
+{
+    let a  = "hola"
+    console.log(a);
+}
+
+
+console.log(a);
+
+
+
+// const b = 2;
+// b = 3*4;
+// console.log(b);
+
+
+const array = [1,2,3,4];
+console.log(array);
+array.push(5);
+console.log(array);
+array.pop();
+console.log(array);
