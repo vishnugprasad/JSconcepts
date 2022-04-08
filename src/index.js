@@ -732,28 +732,54 @@
 
 
 
-let a = "hello";
-console.log(a);
+// let a = "hello";
+// console.log(a);
  
 
-{
-    let a  = "hola"
-    console.log(a);
-}
+// {
+//     let a  = "hola"
+//     console.log(a);
+// }
 
 
-console.log(a);
+// console.log(a);
 
 
 
-// const b = 2;
-// b = 3*4;
-// console.log(b);
+// // const b = 2;
+// // b = 3*4;
+// // console.log(b);
 
 
-const array = [1,2,3,4];
-console.log(array);
-array.push(5);
-console.log(array);
-array.pop();
-console.log(array);
+// const array = [1,2,3,4];
+// console.log(array);
+// array.push(5);
+// console.log(array);
+// array.pop();
+// console.log(array);
+
+
+//.........................template literals.......................................
+
+
+var a = "Vishnu";
+var b = "G Prasad";
+var c = a + " " + b;
+console.log(c);
+
+
+
+var d  = `hello ${b}`;
+console.log(d);
+
+
+
+let e =`${a}`;
+console.log(e);
+
+
+let f = `hola ${c}`
+console.log(f);
+
+
+
