@@ -959,36 +959,46 @@
 //..........................MAP FUNCTIONS.............................
 
 
-let array = [10,20,30,40];
+// let array = [10,20,30,40];
 
-function addOne(element){
+// function addOne(element){
 
-    return element+1;
+//     return element+1;
 
-}
+// }
 
-console.log(array.map(addOne));
-
-
-
-
-let array1 = [1,2,3,4];
-console.log(array1);
- const multiply = (element)=> {
-
-    return element*10
-
- }
-
-console.log(array1.map(multiply));
+// console.log(array.map(addOne));
 
 
 
-let array3 = [3,6,9,12,15,18]
-console.log(array3);
 
-function divide(element){
-    return element/3
-}
+// let array1 = [1,2,3,4];
+// console.log(array1);
+//  const multiply = (element)=> {
 
-console.log(array3.map(divide));
+//     return element*10
+
+//  }
+
+// console.log(array1.map(multiply));
+
+
+
+// let array3 = [3,6,9,12,15,18]
+// console.log(array3);
+
+// function divide(element){
+//     return element/3
+// }
+
+// console.log(array3.map(divide));
+
+let array1 = [11,12,13,14,15]
+let array = [1,2,3,4,5,6,7,8,9,10, ...array1];
+
+console.log(array.map((element)=> {
+   return element*2
+}));
+
+
+console.log(array.map(element => (element+1)*2));
