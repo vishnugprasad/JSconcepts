@@ -901,7 +901,35 @@
 
 
 
-let india  = { match :100, won: 85};
-let {played, win} = india;
-console.log(played,win);
+// let india  = { match :100, won: 85};
+// let {played, win} = india;
+// console.log(played,win);
 
+
+//.............................ARROW FUNCTIONS.........................
+
+
+// function playoff(){
+//     console.log("3..2..1...playoff");
+// }
+
+// playoff();
+
+
+
+// setTimeout(function(){
+//     console.log("3..2...1...playoff");
+// }, 3000)
+
+
+// setTimeout( ()=> {
+//     console.log("hey vishnu");
+// }, 5000)
+
+
+
+const call = ()=> {
+    console.log("this is the last call");
+}
+
+call();
