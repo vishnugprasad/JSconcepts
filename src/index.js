@@ -762,24 +762,110 @@
 //.........................template literals.......................................
 
 
-var a = "Vishnu";
-var b = "G Prasad";
-var c = a + " " + b;
-console.log(c);
+// var a = "Vishnu";
+// var b = "G Prasad";
+// var c = a + " " + b;
+// console.log(c);
 
 
 
-var d  = `hello ${b}`;
-console.log(d);
+// var d  = `hello ${b}`;
+// console.log(d);
 
 
 
-let e =`${a}`;
-console.log(e);
+// let e =`${a}`;
+// console.log(e);
 
 
-let f = `hola ${c}`
-console.log(f);
+// let f = `hola ${c}`
+// console.log(f);
+
+
+//........................SPREAD OPERATOR.....................................
+
+
+
+// let a = [1,2,3,4,5];
+// console.log(a);
+// let b = [...a, 6,7,8];
+// console.log(b);
+// let c = [...b,9,10,11,12]
+// console.log(c);
+
+// function print(a,b,c){
+//   console.log(a,b,c);
+// }
+
+// let z =[1,2,3];
+// print(...z)
+
+
+// let x= [1,2,3,4]
+// console.log(x);
+
+
+
+
+// function print(x,...y) {
+//     console.log(y);
+// }
+// let y = ["a","b","c"]
+// let x = [1,2,3,4,5];
+// print(x,y);
+
+
+// function print1(...x){
+//     console.log(x);
+// }
+
+// let h = [1,2,3,4,5];
+// print1(h)
+
+// h = [3,4,5,6]
+
+// print1(h)
+
+
+
+// let a  = [1,2,3,4,5];
+// let b = [...a,6,7,8,9];
+// console.log(b);
+
+
+//.........................ARRAY DESTRUCTURING ..............................
+
+
+// let a = [100,200];
+// let b = a[0];
+// let c = a[1];
+// console.log(b,c);
+
+
+
+// let a = [100,200];
+// let [b,c] = a
+// console.log(b,c);
+
+
+
+// let gameofthrones = ["khalese", "robert", "cersi"] ;
+// let [dragon, stark, lanister] = gameofthrones;
+// console.log(dragon, stark, lanister);
+
+
+
+
+// let avengers = ["cap", "tony", "thor"];
+// let [first,second,third] = avengers;
+// console.log(first,second,third);
+
+
+
+// let e  = [ 9,8,7]
+// let a  = [1,2,3,...e];
+// let [b,c,d,f,g,h] = a;
+// console.log(f,g,h);
 
 
 
