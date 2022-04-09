@@ -928,8 +928,67 @@
 
 
 
-const call = ()=> {
-    console.log("this is the last call");
+// const call = ()=> {
+//     console.log("this is the last call");
+// }
+
+// call();
+
+
+
+// this.a  = 25;
+//  const big =  function(){
+//      this.a = 15
+//      console.log(this.a);
+//  }
+
+//  big();
+ 
+// let printArrow  = ()=> {
+//      console.log(this.a);
+// }
+
+// printArrow();
+
+
+
+// let a = 100;
+
+// console.log(`the answer is ${a}`);
+
+//..........................MAP FUNCTIONS.............................
+
+
+let array = [10,20,30,40];
+
+function addOne(element){
+
+    return element+1;
+
 }
 
-call();
+console.log(array.map(addOne));
+
+
+
+
+let array1 = [1,2,3,4];
+console.log(array1);
+ const multiply = (element)=> {
+
+    return element*10
+
+ }
+
+console.log(array1.map(multiply));
+
+
+
+let array3 = [3,6,9,12,15,18]
+console.log(array3);
+
+function divide(element){
+    return element/3
+}
+
+console.log(array3.map(divide));
