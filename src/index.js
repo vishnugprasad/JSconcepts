@@ -869,3 +869,39 @@
 
 
 
+// let a = [100,200,300,400];
+// let [b,...c]= a;
+// console.log(b,c);
+
+
+
+
+
+//..........................destructuring assignment - OBJECTS..................................
+
+
+// let wizard = {magic : true, power : 10}
+
+// let magical = wizard.magic;
+// let power = wizard.power;
+// console.log(magical,power);
+
+
+
+
+// let  india = {matches: 100, win: 85}
+// let {played, sucess} = india;
+// console.log(played, sucess);
+
+
+
+// let india  = { match : 100, sucess : 85};
+// let {match , sucess}  = india
+// console.log(match, sucess);
+
+
+
+let india  = { match :100, won: 85};
+let {played, win} = india;
+console.log(played,win);
+
