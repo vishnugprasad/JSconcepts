@@ -1039,9 +1039,16 @@
 
 
 
-//...................IMPORTINFG AND EXPORTING................................
+//...................IMPORTING AND EXPORTING................................
+//...................EXPORTING EXPRESSION BY DEFAULT........................
 
 import {students, teacher} from "./students";
-
+import {add, multiply} from "./calculator"
+import division from "./calculator"
 console.log(students);
 console.log(teacher);
+
+
+console.log(add(3,5));
+console.log(multiply(3,5));
+console.log(division(4,2));
