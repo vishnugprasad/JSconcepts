@@ -993,12 +993,55 @@
 
 // console.log(array3.map(divide));
 
-let array1 = [11,12,13,14,15]
-let array = [1,2,3,4,5,6,7,8,9,10, ...array1];
+// let array1 = [11,12,13,14,15]
+// let array = [1,2,3,4,5,6,7,8,9,10, ...array1];
 
-console.log(array.map((element)=> {
-   return element*2
-}));
+// console.log(array.map((element)=> {
+//    return element*2
+// }));
 
 
-console.log(array.map(element => (element+1)*2));
+// console.log(array.map(element => (element+1)*2));
+
+//.....................FILTERS..........................
+
+
+// let array = [10,1,3,14,18,20,22,31,54,65,];
+
+
+// let array = [10,1,3,4,5,6,7,8];
+
+
+// console.log(array);
+
+// // let isGreater = (element)=>{
+// //     return element > 15;
+// // }
+
+// // console.log(array.filter(isGreater));
+
+
+//  let newArray = [];
+
+
+
+// newArray.push((array.filter((element)=>{
+//     return element > 3;
+// })))
+
+// console.log(newArray);
+
+
+// console.log(
+//     newArray.map((element)=> {
+//         return element*3;
+//     }));
+
+
+
+//...................IMPORTINFG AND EXPORTING................................
+
+import {students, teacher} from "./students";
+
+console.log(students);
+console.log(teacher);
