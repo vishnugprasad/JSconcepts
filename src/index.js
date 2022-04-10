@@ -1042,13 +1042,38 @@
 //...................IMPORTING AND EXPORTING................................
 //...................EXPORTING EXPRESSION BY DEFAULT........................
 
-import {students, teacher} from "./students";
-import {add, multiply} from "./calculator"
-import division from "./calculator"
-console.log(students);
-console.log(teacher);
+// import {students, teacher} from "./students";
+// import {add, multiply} from "./calculator"
+// import division from "./calculator"
+// console.log(students);
+// console.log(teacher);
 
 
-console.log(add(3,5));
-console.log(multiply(3,5));
-console.log(division(4,2));
+// console.log(add(3,5));
+// console.log(multiply(3,5));
+// console.log(division(4,2));
+
+
+
+//....................CLASSES.........................
+
+
+
+// let merry = new Entity("Merry", 5.4);
+// merry.greet();
+
+
+import Entity from "./entity";
+
+class Hobbit extends Entity {
+    constructor(name,height){
+        super(name,height)
+    }
+
+    greet(){
+        console.log(`hello this is ${this.name} from the shire`);
+    }
+}
+
+let Frodo = new Hobbit("Froddo", 4.5)
+Frodo.greet();
