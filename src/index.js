@@ -1063,17 +1063,17 @@
 // merry.greet();
 
 
-import Entity from "./entity";
+// import Entity from "./entity";
 
-class Hobbit extends Entity {
-    constructor(name,height){
-        super(name,height)
-    }
+// class Hobbit extends Entity {
+//     constructor(name,height){
+//         super(name,height)
+//     }
 
-    greet(){
-        console.log(`hello this is ${this.name} from the shire`);
-    }
-}
+//     greet(){
+//         console.log(`hello this is ${this.name} from the shire`);
+//     }
+// }
 
-let Frodo = new Hobbit("Froddo", 4.5)
-Frodo.greet();
+// let Frodo = new Hobbit("Froddo", 4.5)
+// Frodo.greet();
