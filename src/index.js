@@ -1077,3 +1077,68 @@
 
 // let Frodo = new Hobbit("Froddo", 4.5)
 // Frodo.greet();
+
+
+// var name = "vishnu"
+// // const len = name.length
+
+// console.log(name.substing(1,2));'
+
+
+
+var strStr = function (haystack, needle) {
+    // Base condition
+    if (haystack == null || needle == null) {
+        return -1;
+    }
+    // Special case
+    if (haystack === needle) {
+        return 0;
+    }
+    // length of the needle
+    const needleLength = needle.length;
+    // Loop through the haystack and slide the window
+    for (let i = 0; i < haystack.length - needleLength + 1; i++) {
+        // Check if the substring equals to the needle
+        console.log(haystack.substring(i ,i + needleLength ));
+        if (haystack.substring(i, i + needleLength) === needle) {
+            
+            return i;
+        }
+    }
+    return -1;
+};
+
+
+// const op = strStr("vishnu", "nu")
+// console.log(op);
+
+
+
+// var name = "vishnu";
+// console.log(name.substring(1,4));
+
+
+
+var strStr = function (haystack, needle)
+{
+    if(haystack == null || needle == null){
+        return -1
+    }
+
+    if(haystack === needle){
+        return 0;
+    }
+
+    const length = needle.length;
+    for(let i = 0; i < haystack.length - length +1; i++){
+        if(haystack.substring(i, i+length) === needle){
+            return i;
+        }
+        return -1
+    }
+}
+
+
+const x = strStr("vishnu", "is")
+console.log(x);
