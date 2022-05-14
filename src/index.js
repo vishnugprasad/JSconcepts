@@ -694,9 +694,7 @@
 
 // console.log(people);
 
-
 //............................typeof, instanceof...............................................
-
 
 // var a = 3;
 // console.log(typeof a);
@@ -715,41 +713,28 @@
 // // var a = df;
 // // console.log(typeof a);
 
-
-
 //............................STRICT MODE.....................................................
-
-
 
 // var person;
 
 // persom = { };
 // console.log(persom);
 
-
-
 //....................ES6.................................
-
-
 
 // let a = "hello";
 // console.log(a);
- 
 
 // {
 //     let a  = "hola"
 //     console.log(a);
 // }
 
-
 // console.log(a);
-
-
 
 // // const b = 2;
 // // b = 3*4;
 // // console.log(b);
-
 
 // const array = [1,2,3,4];
 // console.log(array);
@@ -758,33 +743,23 @@
 // array.pop();
 // console.log(array);
 
-
 //.........................template literals.......................................
-
 
 // var a = "Vishnu";
 // var b = "G Prasad";
 // var c = a + " " + b;
 // console.log(c);
 
-
-
 // var d  = `hello ${b}`;
 // console.log(d);
-
-
 
 // let e =`${a}`;
 // console.log(e);
 
-
 // let f = `hola ${c}`
 // console.log(f);
 
-
 //........................SPREAD OPERATOR.....................................
-
-
 
 // let a = [1,2,3,4,5];
 // console.log(a);
@@ -800,12 +775,8 @@
 // let z =[1,2,3];
 // print(...z)
 
-
 // let x= [1,2,3,4]
 // console.log(x);
-
-
-
 
 // function print(x,...y) {
 //     console.log(y);
@@ -813,7 +784,6 @@
 // let y = ["a","b","c"]
 // let x = [1,2,3,4,5];
 // print(x,y);
-
 
 // function print1(...x){
 //     console.log(x);
@@ -826,59 +796,39 @@
 
 // print1(h)
 
-
-
 // let a  = [1,2,3,4,5];
 // let b = [...a,6,7,8,9];
 // console.log(b);
 
-
 //.........................ARRAY DESTRUCTURING ..............................
-
 
 // let a = [100,200];
 // let b = a[0];
 // let c = a[1];
 // console.log(b,c);
 
-
-
 // let a = [100,200];
 // let [b,c] = a
 // console.log(b,c);
-
-
 
 // let gameofthrones = ["khalese", "robert", "cersi"] ;
 // let [dragon, stark, lanister] = gameofthrones;
 // console.log(dragon, stark, lanister);
 
-
-
-
 // let avengers = ["cap", "tony", "thor"];
 // let [first,second,third] = avengers;
 // console.log(first,second,third);
-
-
 
 // let e  = [ 9,8,7]
 // let a  = [1,2,3,...e];
 // let [b,c,d,f,g,h] = a;
 // console.log(f,g,h);
 
-
-
 // let a = [100,200,300,400];
 // let [b,...c]= a;
 // console.log(b,c);
 
-
-
-
-
 //..........................destructuring assignment - OBJECTS..................................
-
 
 // let wizard = {magic : true, power : 10}
 
@@ -886,28 +836,19 @@
 // let power = wizard.power;
 // console.log(magical,power);
 
-
-
-
 // let  india = {matches: 100, win: 85}
 // let {played, sucess} = india;
 // console.log(played, sucess);
-
-
 
 // let india  = { match : 100, sucess : 85};
 // let {match , sucess}  = india
 // console.log(match, sucess);
 
-
-
 // let india  = { match :100, won: 85};
 // let {played, win} = india;
 // console.log(played,win);
 
-
 //.............................ARROW FUNCTIONS.........................
-
 
 // function playoff(){
 //     console.log("3..2..1...playoff");
@@ -915,26 +856,19 @@
 
 // playoff();
 
-
-
 // setTimeout(function(){
 //     console.log("3..2...1...playoff");
 // }, 3000)
 
-
 // setTimeout( ()=> {
 //     console.log("hey vishnu");
 // }, 5000)
-
-
 
 // const call = ()=> {
 //     console.log("this is the last call");
 // }
 
 // call();
-
-
 
 // this.a  = 25;
 //  const big =  function(){
@@ -943,21 +877,18 @@
 //  }
 
 //  big();
- 
+
 // let printArrow  = ()=> {
 //      console.log(this.a);
 // }
 
 // printArrow();
 
-
-
 // let a = 100;
 
 // console.log(`the answer is ${a}`);
 
 //..........................MAP FUNCTIONS.............................
-
 
 // let array = [10,20,30,40];
 
@@ -969,9 +900,6 @@
 
 // console.log(array.map(addOne));
 
-
-
-
 // let array1 = [1,2,3,4];
 // console.log(array1);
 //  const multiply = (element)=> {
@@ -981,8 +909,6 @@
 //  }
 
 // console.log(array1.map(multiply));
-
-
 
 // let array3 = [3,6,9,12,15,18]
 // console.log(array3);
@@ -1000,17 +926,13 @@
 //    return element*2
 // }));
 
-
 // console.log(array.map(element => (element+1)*2));
 
 //.....................FILTERS..........................
 
-
 // let array = [10,1,3,14,18,20,22,31,54,65,];
 
-
 // let array = [10,1,3,4,5,6,7,8];
-
 
 // console.log(array);
 
@@ -1020,10 +942,7 @@
 
 // // console.log(array.filter(isGreater));
 
-
 //  let newArray = [];
-
-
 
 // newArray.push((array.filter((element)=>{
 //     return element > 3;
@@ -1031,13 +950,10 @@
 
 // console.log(newArray);
 
-
 // console.log(
 //     newArray.map((element)=> {
 //         return element*3;
 //     }));
-
-
 
 //...................IMPORTING AND EXPORTING................................
 //...................EXPORTING EXPRESSION BY DEFAULT........................
@@ -1048,20 +964,14 @@
 // console.log(students);
 // console.log(teacher);
 
-
 // console.log(add(3,5));
 // console.log(multiply(3,5));
 // console.log(division(4,2));
 
-
-
 //....................CLASSES.........................
-
-
 
 // let merry = new Entity("Merry", 5.4);
 // merry.greet();
-
 
 // import Entity from "./entity";
 
@@ -1078,67 +988,110 @@
 // let Frodo = new Hobbit("Froddo", 4.5)
 // Frodo.greet();
 
-
 // var name = "vishnu"
 // // const len = name.length
 
 // console.log(name.substing(1,2));'
 
+// var strStr = function (haystack, needle) {
+//     // Base condition
+//     if (haystack == null || needle == null) {
+//         return -1;
+//     }
+//     // Special case
+//     if (haystack === needle) {
+//         return 0;
+//     }
+//     // length of the needle
+//     const needleLength = needle.length;
+//     // Loop through the haystack and slide the window
+//     for (let i = 0; i < haystack.length - needleLength + 1; i++) {
+//         // Check if the substring equals to the needle
+//         console.log(haystack.substring(i ,i + needleLength ));
+//         if (haystack.substring(i, i + needleLength) === needle) {
 
-
-var strStr = function (haystack, needle) {
-    // Base condition
-    if (haystack == null || needle == null) {
-        return -1;
-    }
-    // Special case
-    if (haystack === needle) {
-        return 0;
-    }
-    // length of the needle
-    const needleLength = needle.length;
-    // Loop through the haystack and slide the window
-    for (let i = 0; i < haystack.length - needleLength + 1; i++) {
-        // Check if the substring equals to the needle
-        console.log(haystack.substring(i ,i + needleLength ));
-        if (haystack.substring(i, i + needleLength) === needle) {
-            
-            return i;
-        }
-    }
-    return -1;
-};
-
+//             return i;
+//         }
+//     }
+//     return -1;
+// };
 
 // const op = strStr("vishnu", "nu")
 // console.log(op);
 
-
-
 // var name = "vishnu";
 // console.log(name.substring(1,4));
 
+// var strStr = function (haystack, needle)
+// {
+//     if(haystack == null || needle == null){
+//         return -1
+//     }
 
+//     if(haystack === needle){
+//         return 0;
+//     }
 
-var strStr = function (haystack, needle)
-{
-    if(haystack == null || needle == null){
-        return -1
+//     const length = needle.length;
+//     for(let i = 0; i < haystack.length - length +1; i++){
+//         if(haystack.substring(i, i+length) === needle){
+//             return i;
+//         }
+//         return -1
+//     }
+// }
+
+// const x = strStr("vishnu", "is")
+// console.log(x);
+
+// var maxSubArray = function (nums) {
+//   var prev = 0;
+//   var max = -Infinity;
+//   for (var i = 0; i < nums.length; i++) {
+//     prev = Math.max(prev + nums[i], nums[i]);
+//     max = Math.max(max, prev);
+//   }
+//   return max;
+// };
+
+// var s  = " hello my name is vishnu "
+// console.log(s.length);
+// console.log(s.trim());;
+// console.log(s.length);
+
+// console.log(s.split(" "));
+
+// var nums = [1,3,8,11,4,2,5,6]
+// var so = nums.sort((a,b)=>a-b);
+// console.log(nums.length);
+// console.log(nums.sort((a,b)=>b-a));
+
+// let i =9;
+// console.log(i+=1);
+// console.log(i++);
+
+var threeSumClosest = function (nums, target) {
+  nums.sort((a, b) => a - b);
+
+  const n = nums.length;
+
+  let closest = nums[0] + nums[1] + nums[n - 1];
+
+  for (let i = 0; i < n - 2; i++) {
+    let j = i + 1;
+    let k = n - 1;
+
+    while (j < k) {
+      let sum = nums[i] + nums[j] + nums[k];
+      if (sum <= target) {
+        j++;
+      } else {
+        k--;
+      }
+      if (Math.abs(closest - target) > Math.abs(sum - target)) {
+        closest = sum;
+      }
     }
-
-    if(haystack === needle){
-        return 0;
-    }
-
-    const length = needle.length;
-    for(let i = 0; i < haystack.length - length +1; i++){
-        if(haystack.substring(i, i+length) === needle){
-            return i;
-        }
-        return -1
-    }
-}
-
-
-const x = strStr("vishnu", "is")
-console.log(x);
+  }
+  return closest;
+};
